@@ -3,44 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Timeline</title>
+    <title>Yash Tanwar | Web Developer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
 
-<div class="container">
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Yash Tanwar</div>
 
-    <div class="top-bar">
-        <button class="back-btn">&#10094;</button>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
 
-        <div class="tabs">
-            <button class="tab active">📋 Timeline</button>
-            <button class="tab">📝 Changes</button>
+        <button id="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+
+            <h3>Hello, I'm</h3>
+            <h1>Yash Tanwar</h1>
+
+            <h2>
+                <span id="typing"></span>
+            </h2>
+
+            <p>
+                Passionate Web Developer creating modern,
+                responsive, and user-friendly web experiences.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="resume.pdf" class="btn" download>
+                    Download Resume
+                </a>
+
+                <a href="contact.html" class="btn-outline">
+                    Contact Me
+                </a>
+            </div>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/yash-tanwar-47b9943a5"
+                    target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="https://instagram.com/yash_chaudhary0098"
+                    target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://github.com/"
+                    target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+
         </div>
-    </div>
 
-    <div class="editor">
-<pre>
-- --secondary: oklch(0.968 0.007 247.896);
-- --secondary-foreground: oklch(0.208 0.042 265.755);
-- --muted: oklch(0.968 0.007 247.896);
-- --muted-foreground: oklch(0.554 0.046 257.417);
-- --accent: oklch(0.968 0.007 247.896);
-- --accent-foreground: oklch(0.208 0.042 265.755);
-- --destructive: oklch(0.577 0.245 27.325);
-- --destructive-foreground: oklch(0.984 0.003 247.858);
-- --border: oklch(0.929 0.013 255.508);
-- --input: oklch(0.929 0.013 255.508);
-- --ring: oklch(0.704 0.04 256.788);
-- --chart-1: oklch(0.646 0.222 41.116);
-- --chart-2: oklch(0.600 0.118 184.704);
-- --chart-3: oklch(0.398 0.070 227.392);
-- --chart-4: oklch(0.828 0.189 84.429);
-- --chart-5: oklch(0.769 0.188 70.080);
-</pre>
-    </div>
+        <div class="hero-image">
+            <img src="profile.jpg" alt="Yash Tanwar">
+        </div>
+    </section>
 
-</div>
+    <!-- Quick Overview -->
+    <section class="overview reveal">
+        <h2>Who Am I?</h2>
+
+        <p>
+            I'm currently pursuing B.Tech in Computer Science
+            Engineering and working toward becoming a skilled
+            full-stack developer. I enjoy building websites,
+            learning new technologies, and solving real-world
+            problems through code.
+        </p>
+    </section>
+
+    <!-- Skills Preview -->
+    <section class="skills-preview reveal">
+        <h2>Skills</h2>
+
+        <div class="skill-container">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Python</span>
+            <span>C</span>
+            <span>GitHub</span>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Yash Tanwar. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
